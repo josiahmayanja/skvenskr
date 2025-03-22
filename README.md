@@ -1,11 +1,11 @@
-# Skvenskr ✍️🇸🇪  
+# skvenskr ✍️🇸🇪  
 **A modern Swedish writing assistant — fast, clear, no fluff.**
 
 ---
 
 ## 🚀 What is Skvenskr?
 
-Skvenskr helps Swedish speakers and learners write better Swedish.  
+skvenskr helps Swedish speakers and learners write better Swedish.  
 It checks grammar and spelling using smart language tools and explains issues in simple, clear language.
 
 - ✅ Paste Swedish text  
@@ -33,5 +33,21 @@ It checks grammar and spelling using smart language tools and explains issues in
 
 ---
 
-## 📁 Structure
+## 🗂️ Project Structure
+
+### `/frontend`
+> React + TypeScript
+
+- Text input box for Swedish
+- “Check Text” button
+- Displays grammar suggestions and fixes
+- Clean UI with Tailwind CSS
+
+### `/backend`
+> Node.js + Express (TypeScript)
+
+- `/check` endpoint (POST)
+- Sends text to LanguageTool
+- Formats grammar suggestions
+- Optionally adds GPT explanation (only when needed)
 
