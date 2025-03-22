@@ -1,9 +1,9 @@
-# skvenskr ✍️🇸🇪  
+# skvenskr 🇸🇪  
 **A modern Swedish writing assistant — fast, clear, no fluff.**
 
 ---
 
-## 🚀 What is Skvenskr?
+## 🚀 What is skvenskr?
 
 skvenskr helps Swedish speakers and learners write better Swedish.  
 It checks grammar and spelling using smart language tools and explains issues in simple, clear language.
